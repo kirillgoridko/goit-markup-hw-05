@@ -431,12 +431,13 @@ header .site-contact{
     font-weight: 400;
     font-style:normal ;
 }
-.site-contact .down :hover,
-.site-contact .down :focus{
+.site-contact-item:hover .site-contact,
+.site-contact.down:focus{
     color: var(--accent-color);
 } 
 
 .site-contact .down{
+    color: rgba(255, 255, 255, 0.6);
     font-weight: 400;
     padding: 0; 
     display: inline-block;
